@@ -13,8 +13,8 @@
 
 #### Versions
 
-- Spring Boot 2.5.3
-- Spring Cloud 2020.0.3
+- Spring Boot 2.6.0-SNAPSHOT
+- Spring Cloud 2021.0.0-SNAPSHOT
 
 #### Libraries
 
