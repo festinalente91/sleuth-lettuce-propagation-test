@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - 19411:9411
+  redis:
+    image: redis
+    ports:
+      - 16379:6379

@@ -1,0 +1,15 @@
+server:
+  port: 9090
+spring:
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://localhost:19411
+    service:
+      name: hello
+  redis:
+    database: 0
+    host: localhost
+    port: 16379
+    timeout: 60000
