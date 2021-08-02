@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.6.0-SNAPSHOT"
+	id("org.springframework.boot") version "2.6.0-M1"
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	kotlin("jvm") version "1.5.20"
 	kotlin("plugin.spring") version "1.5.20"
@@ -17,7 +17,7 @@ repositories {
 	maven { url = uri("https://repo.spring.io/snapshot") }
 }
 
-extra["springCloudVersion"] = "2021.0.0-SNAPSHOT"
+extra["springCloudVersion"] = "2021.0.0-M1"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
